@@ -44,4 +44,3 @@ window.onload = function(){
       item.remove();
     }
 };
-  
