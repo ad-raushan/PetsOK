@@ -1,0 +1,29 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(191, 238, 238);
+}
+  
+h1{
+    text-align: center;
+}
+  
+#option-container{
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+#form-container{
+    display: none;
+}
+
+#signup-btn,#login-btn{
+    background-color: rgb(93, 206, 117);
+    cursor: pointer;
+    border-radius: 15px;
+    height: 30px;
+}
+
+#signup-btn:hover, #login-btn:hover{
+    background-color: rgb(156, 212, 168);
+}

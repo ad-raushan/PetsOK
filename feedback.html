@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+
+  <header>
+    <img src="PetsOKLOGO.png" alt="PetsOK! Logo" title="PetsOK!">
+    <h1>Welcome to PetsOK! Feedback Page</h1>
+  </header>
+
+  <div class="container">
+    <form id="feedbackForm">
+      <h2>General Feedback</h2>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone number:</label>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+
+      <label for="message">Feedback Message:</label>
+      <textarea id="message" name="message" rows="14"></textarea>
+
+      <button type="submit" onclick="feedbackComplete()">Submit Feedback</button>
+
+      <h2>Medication Support</h2>
+      <p>
+        PetsOK! understands the importance of accurate medication support for your pets. Please share your thoughts on the medication-related information available on our website. Did you find it helpful and reliable? We would also appreciate your feedback on any medication-related services you utilized, such as prescription uploads, dosage guidelines, or consultations.
+      </p>
+
+      <h2>Product Selection and Availability</h2>
+      <p>
+        We want to ensure that PetsOK! offers a wide range of pet-related products to meet your needs. Please share your feedback on the variety and availability of our products. Is there something specific you couldn't find? We welcome your suggestions for expanding our product range.
+      </p>
+
+      <h2>Customer Service</h2>
+      <p>
+        PetsOK! takes pride in delivering excellent customer service. Your feedback regarding our customer service team is vital. Please let us know about your interactions with our team, including their responsiveness, helpfulness, and professionalism. We also appreciate any suggestions you may have for improving our customer service experience.
+      </p>
+
+      <h2>Ordering and Delivery Process</h2>
+      <p>
+        We want your ordering and delivery experience on PetsOK! to be seamless. Please share your thoughts on the ordering process, including ease of use, checkout experience, and payment options. We would also like to know about your satisfaction with the packaging, delivery speed, and overall experience when receiving medications or pet supplies.
+      </p>
+
+      <h3>Suggestions for Improvement</h3>
+      <p>
+        Your ideas and suggestions are highly valuable to us. We encourage you to provide any suggestions for improving PetsOK!, whether it's enhancing existing features or introducing new ones. We appreciate specific and actionable suggestions that can help us serve you better.
+      </p>
+
+      <p>
+        Thank you for taking the time to share your feedback and help us make PetsOK! the best platform for pet owners like yourself. Your input is essential in our continuous efforts to improve our website and services.
+      </p>
+
+      
+      
+    </form>
+  </div>
+  <footer>
+    <p>&copy; 2023 PetsOK! All rights reserved.</p>
+  </footer>
+  <script>
+    function feedbackComplete(){
+        alert("Thankyou for the feedback. We will reach you through the mail. Please explain your query there. Thanks for choosing PetsOK!. Have a good day :)");
+    }
+  </script>
+
+
+</body>
+</html>

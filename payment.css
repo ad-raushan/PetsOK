@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+    background-color: #b2e78f;
+}
+button{
+    margin-top: 10px;
+    height: 30px;
+    cursor: pointer;
+    background-color: rgb(178, 122, 231);
+    border-radius: 15px;
+}
+button:hover{
+    background-color: rgb(214, 189, 238);
+}
