@@ -1,0 +1,233 @@
+body{
+    background-color: #d9d9d9;
+    
+}
+
+#header1 {
+    /* the div where logo and search button is putted */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #d9d9d9;
+}
+
+#logo{
+    color: rgb(102, 63, 138);
+    background-color: #d9d9d9;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    
+}
+
+#container {
+    /* its a div where the search button is...and it is inside the #header1 div */
+    background-color: #d9d9d9;
+    display: flex;
+    align-items: center;
+}
+
+#search-input {
+    padding: 10px;
+    border: 1px solid rgb(247, 111, 115);
+    border-radius: 40px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+  
+#search-button {
+    padding: 10px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50%; /* circle shape */
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    appearance: none;
+    justify-content: center;
+    align-items: center;
+    width: 40px; /* to adjust the width and height to control the size of the circle */
+    -webkit-appearance: none;
+    height: 40px;
+}
+
+#search-button:hover {
+    background-color: rgb(102, 63, 138);;
+}
+  
+#search-button:active {
+    background-color: rgb(102, 63, 138);;
+}
+
+#navigation-list{
+    list-style: none;
+    overflow: hidden;
+    background-color: rgb(170, 105, 231);
+}
+
+
+#navigation-list li{
+    float:left;
+}
+
+#navigation-list li a{
+    display: flex;
+    flex-grow: 3;
+    color: wheat;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+#navigation-list li a:hover{
+    background-color: rgb(58, 17, 95);
+    color: wheat;
+    cursor: pointer;
+}
+
+#main, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#header_body{
+    background-color: #d9d9d9;
+    padding: 20px;
+    text-align: center;
+}
+
+#header_body h1{
+    color: #333;
+}
+
+#main_body section{
+    margin: 30px 0;
+    padding: 0 20px;
+}
+
+h2{
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p{
+    color: #666;
+}
+
+#main_body-shopping{
+    width: 100%;
+    background-color: rgb(230, 214, 244);
+}
+
+#main_body-medication{
+    width: 100%;
+    background-color: rgb(186, 237, 239);
+}
+
+/* starts buttons code from here */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px; /*corner round*/
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+  
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* corner round*/
+}
+  
+.card h2 {
+    margin-top: 0;
+}
+  
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: rgb(133, 90, 174);
+    color: #fff;
+    border-radius: 4px;
+}
+  
+.btn:hover {
+    background-color: #e6d6f4;
+}
+/*ends button code  */
+
+/* footer starts from here */
+#footer{
+    background-color: rgb(30, 26, 23);
+    width: auto;
+}
+p #footer_webinfo_text{
+    color: rgb(67, 64, 64);
+}
+#parent{
+    text-align: center;
+}
+#parent > div{
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+#child1,#child2{
+    display: inline;
+    padding: 20px;
+}
+
+#about,#help{
+    /* text-align: justify; */
+    color: rgb(255, 255, 255);
+    list-style: none;
+    padding-left: 0%;
+}
+
+#about-list,#help-list{
+    text-align: justify;
+    list-style: none;
+    /* grid-area: 0; */
+    padding-left: none;
+    color: rgb(58, 102, 140);
+}
+
+#about-list:hover,#help-list:hover{
+    cursor: pointer;
+}
+
+.footer-href{
+    text-decoration: none;
+    color: rgb(236, 148, 148);
+}
+
+#copyright-section{
+    color: rgb(67, 64, 64);
+    text-align: center;
+}
