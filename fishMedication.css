@@ -1,51 +1,51 @@
 body{
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #8ed8ec5f;
-  }
+  font-family: "lato",sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #8ed8ec5f;
+}
   
-  #page-topic{
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
+#page-topic{
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
   
-  main{
-    margin-left: 20px;
-    margin-left: 20px;
-  }
+main{
+  margin-left: 20px;
+  margin-left: 20px;
+}
   
-  .faq-container{
-    margin-left: 30px;
-  }
+.faq-container{
+  margin-left: 30px;
+}
   
-  .faq-question{
-    margin-bottom: 20px;
-    margin-left: 30px;
-    border: 1.5px solid #535353;
-  }
+.faq-question{
+  margin-bottom: 20px;
+  margin-left: 30px;
+  border: 1.5px solid #535353;
+}
   
-  .question{
-    cursor: pointer;
-  }
+.question{
+  cursor: pointer;
+}
   
-  .answer{
-    display: none;
-  }
+.answer{
+  display: none;
+}
   
-  ul{
-    line-height: 3em;;
-  }
+ul{
+  line-height: 3em;;
+}
   
-  .faq-container ul li{
-    list-style: '🐟';
-  }
+.faq-container ul li{
+  list-style: '🐟';
+}
   
-  footer{
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
+footer{
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}

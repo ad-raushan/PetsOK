@@ -1,38 +1,39 @@
 h1{
-    background-color: rgb(220, 197, 241);
-    text-align: center;
-  }
+  background-color: rgb(220, 197, 241);
+  text-align: center;
+}
     
-  body{
-    background-color: rgb(220, 197, 241);
-  }
+body{
+  background-color: rgb(220, 197, 241);
+  font-family: "lato",sans-serif;
+}
     
-  .item{
-    border: 1px solid black;
-    padding: 10px;
-    margin-bottom: 10px;
-    text-align: left;
-    background-color: rgb(226, 210, 242);
-  }
+.item{
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+  background-color: rgb(226, 210, 242);
+}
     
-  .add-to-cart{
-    margin-top: 5px;
-    background-color: rgb(219, 166, 100);
-    border-radius: 7px;
-    cursor: pointer;
-  }
+.add-to-cart{
+  margin-top: 5px;
+  background-color: rgb(219, 166, 100);
+  border-radius: 7px;
+  cursor: pointer;
+}
   
-  .add-to-cart:hover{
-    background-color: rgb(216, 182, 140);
-  }
+.add-to-cart:hover{
+  background-color: rgb(216, 182, 140);
+}
     
-  img{
-    height: 100px;
-  }
+img{
+  height: 100px;
+}
   
-  footer{
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
+footer{
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
