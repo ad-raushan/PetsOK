@@ -144,15 +144,15 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: auto;
 }
   
 .card {
     border: 1px solid #ccc;
     border-radius: 10px; /*corner round*/
     padding: 20px;
-    margin: 10px;
-    width: 300px;
+    margin: 1%px;
+    width: 30%;
     background-color: #f9f9f9;
     text-align: center;
 }
@@ -235,6 +235,6 @@ p #footer_webinfo_text{
     color: yellow;
 }
 #username1:hover{
-            cursor: pointer;
-            color: red;
+    cursor: pointer;
+    color: red;
 }
